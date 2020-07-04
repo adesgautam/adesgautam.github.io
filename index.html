@@ -10,14 +10,19 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Press Start 2P" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Bebas Neue" rel="stylesheet"> -->
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="css/styles.css" rel="stylesheet">
     <script type="text/javascript" src="js/particles.js"></script>
 </head>
@@ -52,6 +57,12 @@
                 <a href="#projects">Projects</a>
             </li>
             <li>
+                <a href="#blog">Blog</a>
+            </li>
+            <li>
+                <a href="#insta">Photography</a>
+            </li>
+            <li>
                 <a href="#contact">Contact</a>
             </li>
         </ul>
@@ -60,9 +71,13 @@
 
     <div id="lead">
         <div id="lead-content">
+            <img class="rounded-circle z-depth-2" alt="adesh gautam" src="images/pp.jpeg"data-holder-rendered="true" style="width: 200px; height: 200px;">
+            <br>
+            <br>
             <h1>Adesh Gautam</h1>
-            <h2 class="spacing">Developer | Machine Learning | Blockchain Enthusiast</h2>
-            <a href="https://goo.gl/ZYWb3F" class="btn-rounded-white">Download Resume</a>
+            <br>
+            <h2 class="spacing">Developer | Machine Learning | Amateur Photographer</h2>
+            <a href="https://goo.gl/ZYWb3F" class="btn-rounded-white">Resume</a>
             <div class="social">
                 <ul>
                     <li>
@@ -83,9 +98,9 @@
                     <li>
                         <a href="https://twitter.com/gautamades" target="_blank"><i class="fa fa-twitter fa-fw" aria-hidden="true"></i></a>
                     </li>
-                    <!-- <li>
-                        <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                    </li> -->
+                    <li>
+                        <a href="https://www.instagram.com/pixels.adesh/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -111,14 +126,8 @@
                 </div>
                 <div class="col-md-8">
                     <p>
-                        I am a final year engineering student, who loves pizza, EDM music and watches TV series. I love to code, customize and tweak smartphones (rooting and flashing ROMs) and try to learn new technologies.
+                        I like to click pictures, loves EDM music, watches TV series, builds stuff and customize and tweak smartphones (rooting and flashing ROMs) and try to learn new technologies.
                     </p><br>
-                    <p>
-                        Read my blogs on <a href="https://medium.com/@adeshg7">Medium</a>
-                    </p>&nbsp;
-                    <p>
-                        Checkout some cool stuff I built on <a href="https://github.com/adesgautam">Github</a>
-                    </p>&nbsp;
                     <p>
                         My favorite TV shows here <a href="http://www.imdb.com/list/ls069057913/">IMDB list</a>.
                     </p>
@@ -128,24 +137,64 @@
     </div>
     <!-- End #about -->
 
-    <div id="experience" class="background-alt">
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">Work</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        Read my blogs on <a href="https://medium.com/@adeshg7">Medium</a>
+                    </p>&nbsp;
+                    <p>
+                        Checkout some cool stuff I built on <a href="https://github.com/adesgautam">Github</a>.
+                    </p>&nbsp;
+                    <p>Here are some of the technologies I use to build stuff:</p>
+                    <ul>
+                        <li>Python</li>
+                        <li>C/C++</li>
+                        <li>Django</li>
+                        <li>Tensorflow</li> 
+                        <li>Keras</li>
+                        <li>Flask</li>
+                        <li>OpenCV</li>
+                        <li>Docker</li>
+                        <li>AWS</li>
+                        <li>Bootstrap</li> 
+                        <li>Heroku</li>
+                    </ul>&nbsp;
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="experience" class="background">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
+
+            <div data-date="June 2019 – Present" class="shadow-large">
+                <h3>Value Momentum</h3>
+                <h4>Software Engineer - Data Science</h4>
+                <ul>
+                    <li>
+                        Working as a part of Data Science team, crunching value out of data.
+                    </li>
+                </ul>
+            </div>
+
             <div data-date="June 2018 – July 2018" class="shadow-large">
                 <h3>ISRO</h3>
                 <h4>Software Engineering Intern</h4>
                 <ul>
                     <li>
-                        Worked with team to develop a system for identifying disease based on
-symptoms.
+                        Worked with team to develop a system for identifying disease based on symptoms.
                     </li>
                     <li>
-                        Scraped, cleaned, assimilated data from web and trained a neural network
-model to predict disease with 77% accuracy on test data.
+                        Scraped, cleaned, assimilated data from web and trained a neural network model to predict disease with 77% accuracy on test data.
                     </li>
                     <li>
-                        Web app deployed on Heroku and created REST API for future
-integration of the system with mobile apps.
+                        Web app deployed on Heroku and created REST API for future integration of the system with mobile apps.
 
                     </li>
                 </ul>
@@ -167,39 +216,35 @@ integration of the system with mobile apps.
     </div>
     <!-- End #experience -->
 
-    <div id="skills">
+    <!-- <div id="skills">
         <h2 class="heading">Skills</h2>
         <ul>
             <li class="shadow-large">Python</li>
-            <li class="shadow-large">C</li>
-            <li class="shadow-large">C++</li>
-            <li class="shadow-large">HTML/CSS</li>
-            <li class="shadow-large">Javascript</li>
-            <li class="shadow-large">Solidity</li>
+            <li class="shadow-large">C/C++</li>
             <li class="shadow-large">Django</li>
+            <li class="shadow-large">Flask</li>
             <li class="shadow-large">Keras</li>
-            <li class="shadow-large">Angular4</li>
-            <li class="shadow-large">Bootstrap</li>
-            <li class="shadow-large">Heroku</li>
-            <li class="shadow-large">Truffle</li>
-            <li class="shadow-large">Octave</li>
+            <li class="shadow-large">Tensorflow</li>
             <li class="shadow-large">OpenCV</li>
+            <li class="shadow-large">Docker</li>
+            <li class="shadow-large">AWS</li>
+            <li class="shadow-large">Octave</li>
             <li class="shadow-large">SQL</li>
             <li class="shadow-large">Git</li>
-            <li class="shadow-large">Tensorflow</li>
-            <li class="shadow-large">Ethereum</li>
+            <li class="shadow-large">Bootstrap</li>
+            <li class="shadow-large">Angular4</li>
+            <li class="shadow-large">Heroku</li>
         </ul>
-    </div>
+    </div> -->
     <!-- End #skills -->
 
-    <div id="education">
+    <!-- <div id="education">
         <h2 class="heading">Education</h2>
         <div class="education-block shadow-large">
             <h3>SKIT, Jaipur</h3>
             <span class="education-date">August 2015 - July 2019</span>
             <h4>Bachelor of Technology in Computer Science</h4>
         </div>
-        <!-- End .education-block -->
 
         <div class="education-block shadow-large">
             <h3>Kendriya Vidyalaya Rajouri, J&K</h3>
@@ -218,14 +263,63 @@ integration of the system with mobile apps.
                 Secured 9.6 CGPA
             </p>
         </div>
-        <!-- End .education-block -->
-    </div>
-    <!-- End #education -->
+    </div> -->
 
     <div id="projects" class="background-alt">
         <h2 class="heading">Projects</h2>
-        <div class="container">
-            <div class="row">
+            <!-- <div class='row'> -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/airace.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>AI race</h3>
+                        <ul>
+                            <li>
+                                Using AI to play the Nintendo's(NES) classic game F1 race.
+                            </li>
+                        </ul><br>
+                        <button class="shadow"><a href="https://github.com/adesgautam/AI-race">View Project</a></button>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/fedlearn.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>FedLearn</h3>
+                        <ul>
+                            <li>
+                                An implementation for a federated learning environment in python using Keras.
+                            </li>
+                        </ul><br>
+                        <button class="shadow"><a href="https://github.com/adesgautam/Fedlearn">View Project</a></button>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/proton.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Proton</h3>
+                        <ul>
+                            <li>
+                                This is a rocket engine designer built using Vuejs and Golang.
+                            </li>
+                        </ul><br>
+                        <button class="shadow"><a href="https://github.com/adesgautam/Proton">View Project</a></button>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+
                 <div class="project shadow-large">
                     <div class="project-image">
                         <img src="images/food-scan.png" />
@@ -254,9 +348,11 @@ integration of the system with mobile apps.
                     <!-- End .project-image -->
                     <div class="project-info">
                         <h3>Energy Predictor</h3>
-                        <p>
-                            Predicts the hourly electric energy demand for Florida using RNN with graphs to show the past and the predicted data.
-                        </p><br>
+                        <ul>
+                            <li>
+                                Predicts the hourly electric energy demand for Florida using RNN with graphs to show the past and the predicted data.
+                            </li>
+                        </ul><br>
                         <button class="shadow"><a href="https://energy-predictor.herokuapp.com/">View Project</a></button>
                     </div>
                     <!-- End .project-info -->
@@ -269,10 +365,15 @@ integration of the system with mobile apps.
                     <!-- End .project-image -->
                     <div class="project-info">
                         <h3>Decentralized FIR</h3>
-                        <p>
-                            A secure and transparent FIR logging app. It is built on Ethereum, which is a decentralized platform for applications to run without any fraud or censorship.
-                        </p><br>
-                        <button class="shadow"><a href="#">View Project</a></button>
+                        <ul>
+                            <li>
+                                A secure and transparent FIR logging app.
+                            </li>
+                            <li>
+                                It is built on Ethereum, which is a decentralized platform for applications to run without any fraud or censorship.
+                            </li>
+                        </ul><br>
+                        <button class="shadow"><a href="https://github.com/adesgautam/Decentralized-FIR">View Project</a></button>
                         <!-- <button class="btn btn-primary"><a href="#">View Project</a></button> -->
                     </div>
                     <!-- End .project-info -->
@@ -285,72 +386,44 @@ integration of the system with mobile apps.
                     <!-- End .project-image -->
                     <div class="project-info">
                         <h3>Disease Identifier</h3>
-                        <p>
-                            Project built during the ISRO internship, it predicts the disease on the basis of symptoms with 77% accuracy on test data using neural networks.
-                        </p><br>
+                        <ul>
+                            <li>
+                                Project built during the ISRO internship, it predicts the disease on the basis of symptoms with 77% accuracy on test data using neural networks.
+                            </li>
+                        </ul><br>
                         <button class="shadow"><a href="http://secret-spire-68361.herokuapp.com/users/register">View Project</a></button>
                     </div>
                     <!-- End .project-info -->
                 </div>
 
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/vidcrypt.png" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>vidCrypt</h3>
-                        <p>
-                            This project aims to livestream webcam securely using AES-128 encryption over network. It also securely streams videos on demand over network.
-                        </p><br>
-                        <button class="shadow"><a href="https://github.com/adesgautam/vidCrypt">View Project</a></button>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/arduino-app.png" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Arduino App</h3>
-                        <ul>
-                            <li>
-                                Project in collaboration with Genus Innovation Limited to create a platform for collecting data and monitor devices to find anomalies.
-                            </li>
-                            <li>
-                                Web app to visualize real-time data. Live on Heroku.
-                            </li>
-                        </ul><br>
-                        <button class="shadow"><a href="http://arduino-app.herokuapp.com">View Project</a></button>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/hotdog-pizza.png" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Hotdog Pizza</h3>
-                        <p>
-                            Web app that can identify hotdog and pizza with 80% accuracy using CNN, inspired by the “Hotdog Not-Hotdog” app featured in the “Silicon Valley” TV show.
-                        </p><br>
-                        <button class="shadow"><a href="https://hotdog-pizza.herokuapp.com/">View Project</a></button>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
 
                 <!-- End .project -->
-            </div>
+            <!-- </div> -->
         </div>
     </div>
     <!-- End #projects -->
+    <div id="blog">
+        <h2 class="heading" style="color: #fcfcfc;">Blogs on Medium</h2>
+        <br>
+        <div id="medium-widget" class="blog blog"></div>
+    </div>
 
-    <div id="contact">
-        <h2>Get in Touch</h2>
+    <!-- <script src="d29mk5socxaj4o.cloudfront.net/GitHubPinner.js"></script>
+    <div data="https://github.com/adesgautam?tab=repositories" class="github-pinner"></div> -->
+
+    <div id="insta">
+        <h2 class="heading" style="color: #fcfcfc;">Photography</h2>
+        <br>
+        <!-- <div class='embedsocial-instagram insta' data-ref="313b514052ab60e11d90693530edaa35ab6435af" style="background-color: white;"></div> -->
+        <!-- SnapWidget -->
+        <script src="https://snapwidget.com/js/snapwidget.js"></script>
+        <iframe src="https://snapwidget.com/embed/846680" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; "></iframe>
+    </div>
+
+</div>
+
+<!--     <div id="contact">
+        <h2 class="heading">Get in Touch</h2>
         <div id="contact-form">
             <form method="POST" action="https://formspree.io/adeshg7@gmail.com">
               <input type="email" name="email" placeholder="Your email">
@@ -358,7 +431,14 @@ integration of the system with mobile apps.
               <button type="submit">Send</button>
             </form>
         </div>
-        <!-- End #contact-form -->
+    </div> -->
+    <div id="contact">
+        <h2 class="heading">Get in Touch</h2>
+        <p style="color: #fcfcfc; text-align: center;">
+            Connect with me using social media accounts listed at the <span id="to-top" class="btn-link">top</span> or here <a href="mailto:adeshg7@gmail.com" >adeshg7@gmail.com</a>
+        </p>
+        <br>
+        <br>
     </div>
     <!-- End #contact -->
 
@@ -367,7 +447,7 @@ integration of the system with mobile apps.
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                        Copyright &copy; 2019 ADESH GAUTAM
+                        Copyright &copy; 2020 ADESH GAUTAM
                     </p>
                 </div>
                 <div class="col-sm-2 top">
@@ -379,6 +459,13 @@ integration of the system with mobile apps.
         </div>
     </footer>
     <!-- End footer --> 
+
+    <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
+    <script>MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://medium.com/@adeshg7","postsPerLine":2,"limit":10,"picture":"small","fields":["description","author","claps","likes","publishAt"],"ratio":"square"}})</script>
+
+    <script>(function(d, s, id){var js; if (d.getElementById(id)) {return;} js = d.createElement(s); js.id = id; js.src = "https://embedsocial.com/embedscript/in.js"; d.getElementsByTagName("head")[0].appendChild(js);}(document, "script", "EmbedSocialInstagramScript"));</script>
+
+    <script src="https://www.powr.io/powr.js?platform=html"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/scripts.min.js"></script>
